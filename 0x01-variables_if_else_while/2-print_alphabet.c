@@ -3,7 +3,9 @@
 /**
  * main - Prints the alphabet.
  *
- * Return: Always 0 (Success)
+ * Description: using the main function.
+ * this program prints "Programming is alphabet"
+ * Return: Always 0 is success
  */
 int main(void)
 {
