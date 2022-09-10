@@ -8,6 +8,7 @@
 int main(void)
 {
 	char b;
+
 	for (b = '0'; b <= '9'; b++)
 		putchar (b);
 
@@ -15,6 +16,6 @@ int main(void)
 		putchar (b);
 
 	putchar ('\n');
-	return(0);
+	return (0);
 }
 
