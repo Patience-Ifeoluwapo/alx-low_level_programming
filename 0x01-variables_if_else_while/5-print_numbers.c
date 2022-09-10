@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print all single digit numbers of base 10 starting from 0.
+ * main - print numbers from 0 to 9.
  *
  * Description: using the main function.
- * Return:0
+ * Return: 0
  */
 int main(void)
 {
@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%i", i);
+		printf("%d", i);
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
 
