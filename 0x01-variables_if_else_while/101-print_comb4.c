@@ -8,43 +8,28 @@
  */
 int main (void)
 {
-	int i, e, g, h, op1, op2;
+	int n, m, l;
 
-	i = e = g = h = 48;
-
-	while (h < 5)
-	{
-		g = 48;
-		while (g < 58)
+	for (n = 48; n < 58; n++)
 		{
-			e = 48;
-			while (e < 58)
+			for (m = 49; m < 58; m++)
 			{
-				i = 48;
-				while (i < 58)
+				for (l = 50; l < 58; l++)
 				{
-					op1 = (h * 10) + g;
-					op2 = (e * 10) + i;
-					if (op1 < op2)
+					if (l > m && m > n)
 					{
-						putchar(h);
-						putchar(g);
-						putchar(' ');
-						putchar(e);
-						putchar(i);
-					if (h == 57 && g ==56 && e == 57 && i == 57)
-						break;
-					putchar(',');
-					putchar(' ');
+						putchar(n);
+						putchar(m);
+						putchar(l);
+						if (n != 55 || m != 56)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
-					i++;
 				}
-				e++;
 			}
-			g++;
 		}
-		h++;
-	}
 	putchar('\n');
 	return (0);
 }
