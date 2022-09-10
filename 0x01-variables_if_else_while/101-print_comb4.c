@@ -2,31 +2,48 @@
 
 /**
  * main - prints all possible different combinations of three digits
+ *
  * Return: Always 0 (Success)
  */
 int main (void)
 {
-	int n, m, l;
+	int i, e, g, h, op1, op2;
 
-	for (n = 48; n < 58; n++)
+	i = e = g = h = 48;
+
+	while (h < 5)
 	{
-		for (m = 49; m < 58; m++)
+		g = 48;
+		while (g < 58)
 		{
-			for (l = 50; l < 58; l++)
+			e = 48;
+			while (e < 58)
 			{
-				if (l > m && m > n)
+				i = 48;
+				while (i < 58)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
+					op1 = (h * 10) + g;
+					op2 = (e * 10) + i;
+					if (op1 < op2)
 					{
-						putchar(',');
+						putchar(h);
+						putchar(g);
 						putchar(' ');
+						putchar(e);
+						putchar(i);
+					if (h == 57 && g ==56 && e == 57 && i == 57)
+						break;
+					putchar(',');
+					putchar(' ');
 					}
+					i++;
 				}
+				e++;
 			}
+			g++;
 		}
+		h++;
 	}
 	putchar('\n');
 	return (0);
+}
