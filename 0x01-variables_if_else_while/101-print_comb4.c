@@ -3,6 +3,8 @@
 /**
  * main - prints all possible different combinations of three digits
  *
+ * Description: using the main function
+ * this program prints numbers between 012 to 789
  * Return: Always 0 (Success)
  */
 int main (void)
