@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print the alphabet in lower case
+ * main - print the alphabet in lower case without q and e.
  *
  * this program prints "Programming is lower case"
  * Return: 0
@@ -11,7 +11,7 @@ int main(void)
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if ((ch) ! = 'e' && (ch) != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
 		}
