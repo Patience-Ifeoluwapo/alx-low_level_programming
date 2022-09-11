@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of three digits
- *
- * Description: using the main function
- * Return: Always 0 (Success)
- */
+* main - prints all possible different combinations of three digits
+*
+* Description: using the main function
+* Return: Always 0 (Success)
+*/
 int main (void)
 {
 	int n, m, l;
