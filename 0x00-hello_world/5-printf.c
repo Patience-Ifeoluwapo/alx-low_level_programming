@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/** main - print a text.
-*
+/* main - print a text.
+* Description: using the main function.
 * Return: 0
 */
 int main(void)
