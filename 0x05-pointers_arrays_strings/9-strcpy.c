@@ -6,6 +6,7 @@
  * @dest: pointer parameter
  * @src: pointer parameter
  * Author: Patience-Ifeoluwapo
+ * Return: char
  */
 
 char *_strcpy(char *dest, char *src)
