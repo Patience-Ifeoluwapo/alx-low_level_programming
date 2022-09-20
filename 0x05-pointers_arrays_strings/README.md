@@ -1,0 +1,1 @@
+This folder marks the introduction to the concept of pointers, arrays and strings in c-programming. I'll also be using my previous knowledge on c functions to write down functions that relates to arrays, pointers and strings.
