@@ -8,7 +8,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int length, j; /* j will hold the length of the source */
+	int length, j;
 
 	length = 0;
 	while (dest[length] != '\0')
