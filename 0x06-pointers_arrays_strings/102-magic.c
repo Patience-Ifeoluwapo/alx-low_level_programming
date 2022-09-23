@@ -3,7 +3,6 @@
  * main - this program adds one line to the code.
  * Return: 0
  */
-
 int main(void)
 {
 	int n;
@@ -15,10 +14,7 @@ int main(void)
 	/*
 	 * write your line of code here...
 	 * Remember:
-	 * - you are not allowed to use a
-	 * - you are nor allowed to modify p
-	 * - only one statement
-	 * - you are not allowed to code anything else than this line of code
+	 * - you are neither allowed to use a nor allowed to modify p
 	 */
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
