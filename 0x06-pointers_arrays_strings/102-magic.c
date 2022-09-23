@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - this program adds one line to the code.
@@ -15,7 +14,7 @@ int main(void)
 	/*
 	 * write your line of code here...
 	 * Remember:
-	 * - you are neither allowed to use a nor allowed to modify p
+	 * you are neither allowed to use a nor allowed to modify p
 	 */
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
