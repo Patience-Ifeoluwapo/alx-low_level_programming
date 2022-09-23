@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - this program adds one line to the code.
+ * Return: 0
+ */
 
 int main(void)
 {
