@@ -16,7 +16,7 @@ int main(void)
 	 * Remember:
 	 * you are neither allowed to use a nor allowed to modify p
 	 */
-	*(p + 5) = 98;
+	p[5] = 98;
 	/* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
