@@ -19,7 +19,7 @@ char *_strstr(char *haystack, char *needle)
 		/* if a byte matches first char of needle */
 		/* iterate through needle until match ends */
 
-		if (haystach[i] == needle[0])
+		if (haystack[i] == needle[0])
 		{
 			x = i, j = 0;
 
