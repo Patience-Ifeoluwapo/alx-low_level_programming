@@ -41,6 +41,6 @@ int main(int argc, char *argv[])
 		position++;
 	}
 	printf("%d\n", change);
-	
+
 	return (0);
 }
