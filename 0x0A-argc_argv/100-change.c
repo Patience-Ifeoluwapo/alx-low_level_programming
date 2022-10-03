@@ -3,7 +3,7 @@
 /**
  * main - function
  * @argc: length of argv
- * @argv: number of argument
+ * @argv: number of arguments
  * Return: Always 0
  */
 int main(int argc, char *argv[])
