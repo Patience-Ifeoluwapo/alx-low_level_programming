@@ -1,5 +1,5 @@
 #include "main.h"
-#include >stdlib.h>
+#include <stdlib.h>
 /**
  * create_array - creates an array of char dynamiclly
  * @size: size of the array
@@ -10,8 +10,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *buffer;
-
-	unsigned int position
+	unsigned int position;
 
 		if (size == 0)
 		{
