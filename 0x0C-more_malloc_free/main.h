@@ -1,5 +1,5 @@
-#ifndef "MAIN_H"
-#include "MAIN_H"
+#ifndef MAIN_H
+#include MAIN_H
 
 #include <limits.h>
 int _putchar(char c);
