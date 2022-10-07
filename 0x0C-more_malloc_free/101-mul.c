@@ -6,7 +6,7 @@
  * _atoi_digit - convet a char to integer.
  * @x: character to convert.
  * Return: integer.
- */
+ **/
 
 int _atoi_digit(char x)
 {
@@ -21,9 +21,8 @@ int _atoi_digit(char x)
  * _isNumber - Define if a string is a number.
  * @argv: pointer to a string.
  * Return: success (0).
- */
-int _isNumber(
-		char *argv)
+ **/
+int _isNumber(char *argv)
 {
 	int i;
 
@@ -38,7 +37,7 @@ int _isNumber(
  * @nmemb: number of elements.
  * @size: size of elements.
  * Return: pointer to array.
- */
+ **/
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -46,6 +45,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int i;
 
 	tab = malloc(size * nmemb);
+
+	if (tab == NULL)
+		return (NULL);
 
 	for (i = 0; i < (size * nmemb); i++)
 		tab[i] = '0';
@@ -61,7 +63,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  * @a3: array for result.
  * @lena: length of array a3.
  * Return: pointer to array.
- */
+ **/
 
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 {
@@ -91,7 +93,7 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
  * print_array - prints all digits of array.
  * @nb: number of elements to print.
  * @a: array of elements
- */
+ **/
 void print_array(char *a, int nb)
 {
 	int i = 0;
@@ -112,7 +114,7 @@ void print_array(char *a, int nb)
  * @argc: array length.
  * @argv: array.
  * Return: 0.
- */
+ **/
 
 int main(int argc, char *argv[])
 {
@@ -137,7 +139,6 @@ int main(int argc, char *argv[])
 	if (tabres == NULL)
 	{
 		free(tabres);
-
 		return (0);
 	}
 	for (i = len2 - 1, c = 0; i >= 0; i--)
