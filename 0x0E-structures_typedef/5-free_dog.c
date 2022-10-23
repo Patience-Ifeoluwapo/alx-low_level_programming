@@ -3,7 +3,7 @@
 
 /**
  * free_dog - free memory of dog
- * @d:pointer to dog
+ * @d: pointer to dog
  */
 
 void free_dog(dog_t *d)
@@ -14,7 +14,6 @@ void free_dog(dog_t *d)
 			free(d->name);
 		if (d->owner)
 			free(d->owner);
-		free(d->owner);
 		free(d);
 	}
 }
