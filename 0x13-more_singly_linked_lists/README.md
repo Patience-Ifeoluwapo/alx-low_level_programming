@@ -1,0 +1,1 @@
+Taking the learning journey alot further on the concepts of singly linked lists, as part of the course content of ALX SE Program. Although the journey has been tough but enjoyable because each new concept pushes you alot further down the rope.
