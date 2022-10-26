@@ -1,8 +1,8 @@
 #include "lists'h"
 /**
  * insert_nodeint_at_index - this function inserts a new node at given position
- * @head: the head node
- * @idx: the index of the list where new node is to be added
+ * @head: The head node
+ * @idx: The index of the list where new node is to be added
  * @n: The integer data of the new node
  * Return: The address of the newly inserted node or NULL if failed
  */
