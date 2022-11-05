@@ -1,5 +1,5 @@
 /*
- * File:100-elf_header.c
+ * File: 100-elf_header.c
  * Auth: Brennan D Baraban
  */
 
@@ -118,7 +118,7 @@ void print_data(unsigned char *e_ident)
 
 /**
  * print_version - Prints the version of an ELF header.
- * @e_ident: Apointer to an array containing the ELF version.
+ * @e_ident: A pointer to an array containing the ELF version.
  */
 void print_version(unsigned char *e_ident)
 {
