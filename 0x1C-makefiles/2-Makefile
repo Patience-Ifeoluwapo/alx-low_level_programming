@@ -4,7 +4,7 @@
 CC = gcc
 SRC = main.c holberton.c
 NAME = holberton
-OBJ = $(SRC:.c=.o) # Sunstitution References
+OBJ = $(SRC:.c=.o) # Substitution References
 
 # Rule all: Build the holberton executable file
 # 1. Implicity rule to updating .o files
